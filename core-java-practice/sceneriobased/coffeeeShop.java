@@ -1,6 +1,7 @@
+package sceneriobase;
 import java.util.*;
 
-public class coffeeShop1 {
+public class coffeeeShop {
 
     String coffeeType;
     int quantity;
@@ -34,7 +35,7 @@ public class coffeeShop1 {
         System.out.print("Enter Quantity: ");
         int quantity = sc.nextInt();
 
-        coffeeShop1 coffee = new coffeeShop1();
+        coffeeeShop coffee = new coffeeeShop();
         coffee.quantity = quantity;
 
         switch (choice) {
